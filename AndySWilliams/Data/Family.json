@@ -1,0 +1,17 @@
+﻿[
+  {
+    "Id": 0, 
+    "ImageUrl": "Colton",
+    "LongDescription": "My name is Colton and I am 4 years old!",
+    "Name": "Colton Williams",
+    "ShortDescription": "My son the old soul."
+  },
+  {
+    "Id": 0,
+    "ImageUrl": "Kinley",
+    "LongDescription": "My name is Kinley and I am 8 years old!",
+    "Name": "Kinley Williams",
+    "ShortDescription": "She's a social butterfly!."
+  }
+
+]

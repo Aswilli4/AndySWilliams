@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Family>
+<h1>Family Info</h1>
+<div class="row">
+    @foreach (var f in Model)
+    {
+    <div class="col-md-6">
+        <img src="" />
+        <div class="border bg-light rounded p-1">
+            <img src="~/Images/@(f.ImageUrl).jpg" class="img-fluid" />
+            <ul>
+                <li>@f.Name</li>
+                <li>@f.ShortDescription</li>
+                <li>@f.LongDescription</li>
+            </ul>
+        </div>
+
+    </div>
+    }
+</div>
